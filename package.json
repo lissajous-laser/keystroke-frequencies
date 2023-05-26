@@ -1,0 +1,12 @@
+{
+  "name": "key-frequency",
+  "version": "1.0.0",
+  "description": "Returns the frequency of each keystroke from .log files from a keylogger",
+  "main": "key-frequency.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Quang Tran",
+  "license": "Apache-2.0",
+  "type": "module"
+}
