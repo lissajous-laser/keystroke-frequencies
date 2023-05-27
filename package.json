@@ -2,15 +2,15 @@
   "name": "key-frequency",
   "version": "1.0.0",
   "description": "Returns the frequency of each keystroke from .log files from a keylogger",
-  "main": "key-frequency.js",
+  "main": "./main.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "Quang Tran",
   "license": "Apache-2.0",
   "type": "module",
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.4",
+    "jest": "^29.5.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
