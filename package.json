@@ -1,19 +1,18 @@
 {
   "name": "key-frequency",
   "version": "1.0.0",
-  "description": "Returns the frequency of each keystroke from .log files from a keylogger",
+  "description": "Generate keystroke frequencies from the output of https://github.com/GiacomoLaw/Keylogger/tree/master/linux",
   "main": "./main.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "start": "node ./src/main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --collect-coverage"
   },
   "author": "Quang Tran",
   "license": "Apache-2.0",
   "type": "module",
   "devDependencies": {
     "jest": "^29.5.0",
-    "typescript": "^5.0.4"
-  },
-  "dependencies": {
+    "typescript": "^5.0.4",
     "@types/node": "^20.2.4"
   }
 }
